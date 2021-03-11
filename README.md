@@ -1,2 +1,3 @@
 # PracticeProjects
-Repository for my personal projects (practice)
+
+Repository for my personal practice projects
