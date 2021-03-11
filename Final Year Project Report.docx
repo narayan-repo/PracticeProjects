@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="C:\Users\user.DESKTOP-HAAH44U\Desktop\PersonalProjects\PracticeProjects\index.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="class1"></div>
+    <div class="class2"></div>
+    <button>CHange</button>
+    <script>
+      var btn = document.querySelector("button");
+      var div1 = document.querySelector(".class1");
+      var div2 = document.querySelector(".class2");
+      btn.addEventListener("click", function () {
+        div2.style.background = "red";
+      });
+    </script>
+  </body>
+</html>
